@@ -1,5 +1,6 @@
-// Класс логирования операций
-public class Logger {
+package service;
+
+public class OperationLogger {
     public void log(String message) {
         System.out.println("[LOG]: " + message);
     }
